@@ -215,10 +215,16 @@ function WinXP() {
   function onMouseDownIcon(id) {
     dispatch({ type: FOCUS_ICON, payload: id });
   }
-  function onDoubleClickIcon(component) {
+function onDoubleClickIcon(component) {
+    if (component === 'CS16') {
+      window.location.href = 'steam://run/10//-connect%20192.168.0.123:27015';
+      return;
+    }
+
     const appSetting = Object.values(appSettings).find(
       setting => setting.component === component,
     );
+
     dispatch({ type: ADD_APP, payload: appSetting });
   }
   function getFocusedAppId() {
