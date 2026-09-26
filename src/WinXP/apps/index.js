@@ -162,7 +162,6 @@ export const defaultIconState = [
     isFocus: false,
   },
 ];
-
 export const appSettings = {
   'Internet Explorer': {
     header: {
