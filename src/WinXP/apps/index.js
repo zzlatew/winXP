@@ -1,3 +1,4 @@
+import cs16 from 'assets/windowsIcons/cs16.png';
 import InternetExplorer from './InternetExplorer';
 import Minesweeper from './Minesweeper';
 import ErrorBox from './ErrorBox';
@@ -153,6 +154,13 @@ export const defaultIconState = [
     component: Paint,
     isFocus: false,
   },
+  {
+  id: 6,
+  icon: cs16,
+  title: 'Counter-Strike 1.6',
+  component: 'CS16',
+  isFocus: false,
+},
 ];
 
 export const appSettings = {
