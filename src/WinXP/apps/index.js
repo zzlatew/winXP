@@ -154,7 +154,7 @@ export const defaultIconState = [
     component: Paint,
     isFocus: false,
   },
-    {
+  {
     id: 6,
     icon: cs16,
     title: 'Counter-Strike 1.6',
