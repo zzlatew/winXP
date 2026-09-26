@@ -217,7 +217,7 @@ function WinXP() {
   }
   function onDoubleClickIcon(component) {
     if (component === 'CS16') {
-     window.location.href = 'steam://run/10//-connect%20192.168.0.123:27015';
+            window.location.href = 'steam://run/10//-connect%20192.168.0.123:27015';
       return;
     }
     const appSetting = Object.values(appSettings).find(
